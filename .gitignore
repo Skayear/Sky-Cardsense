@@ -27,6 +27,7 @@ dataset/images/
 
 # Calibración local (específica de cada montaje físico)
 *.calib.json
+table_calibration.json
 
 # OS / editor
 .DS_Store
