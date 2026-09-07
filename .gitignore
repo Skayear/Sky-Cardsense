@@ -1,0 +1,36 @@
+# Python (vision/, backend/)
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Node (frontend/)
+node_modules/
+dist/
+build/
+.env
+.env.local
+
+# Docker
+*.log
+
+# Dataset (imágenes/pesos pesados, no versionar por defecto)
+dataset/raw/
+dataset/images/
+*.pt
+*.onnx
+*.weights
+
+# Calibración local (específica de cada montaje físico)
+*.calib.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
